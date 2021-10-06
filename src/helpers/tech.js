@@ -32,6 +32,14 @@ export const tech = [
 		iconName: "java",
 	},
 	{
+		name: "Python",
+		iconName: "python",
+	},
+	{
+		name: "Django",
+		iconName: "django",
+	},
+	{
 		name: "Github",
 		iconName: "github",
 	},

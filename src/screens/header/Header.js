@@ -5,19 +5,14 @@ import Typed from "react-typed";
 function Header() {
 	return (
 		<div className="main-info">
-			<h1>What am I?</h1>
+			<h1>Here I am in nutshell</h1>
 			<Typed
 				strings={[
 					" ",
 					"A Software Engineer",
-					"Also known as an",
 					"Front-end developer",
+					"React.js developer",
 					"Back-end developer",
-					"Full stack developer",
-					"Or!",
-					'"a coder"',
-					" ",
-					" ",
 				]}
 				typeSpeed={40}
 				backSpeed={50}

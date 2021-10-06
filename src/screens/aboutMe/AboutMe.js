@@ -9,12 +9,16 @@ function AboutMe() {
 				<img src={person} alt="person icon" />
 			</div>
 			<div className="about__text">
-				<h1>ABOUT ME</h1>
+				<h1>Detail Introduction</h1>
 				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quia
-					placeat eos atque veniam voluptatum sapiente ipsum tempore iste, omnis
-					cumque velit autem consectetur. Veritatis molestias ullam voluptas
-					nostrum? Dolorum.
+					I did my MTech in Computer Engineering from VJTI, Mumbai. I have been
+					working on Javascript, MERN stacks, Django for long time. I did
+					internship as a full stack developer in a product based company called
+					Stryker. Currently working in Deloitte USI. I have developed various
+					web development projects and there links is given below. I mostly
+					worked as frontend developer. Learning backend also. I am very curious
+					to work for startup where I can get chance to work more and learn
+					more.
 				</p>
 			</div>
 		</div>

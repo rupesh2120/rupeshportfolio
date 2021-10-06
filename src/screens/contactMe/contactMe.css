@@ -1,0 +1,46 @@
+.contactMe__container {
+	background-color: var(--nav-color);
+	color: aliceblue;
+	padding: 1rem;
+}
+
+.contactMe__data__links {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.contactMe__data__links a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.contactMe__data__links a:hover {
+	color: var(--light-color);
+}
+
+.contactMe__data__links .social a {
+	margin: 0 10px;
+}
+
+.fa-github:hover {
+	color: #000000;
+}
+
+.fa-facebook:hover {
+	color: #1773ea;
+}
+
+.fa-instagram:hover {
+	color: #b32e87;
+}
+
+.fa-twitter:hover {
+	color: #1c9cea;
+}
+
+@media only screen and (max-width: 600px) {
+	.contactMe__data__links {
+		flex-direction: column;
+	}
+}

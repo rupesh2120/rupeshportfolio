@@ -4,6 +4,8 @@ import NavigationBar from "./screens/navigationBar/NavigationBar";
 import Header from "./screens/header/Header";
 import AboutMe from "./screens/aboutMe/AboutMe";
 import Technologies from "./screens/technologies/Technologies";
+import ContactMe from "./screens/contactMe/ContactMe";
+import Portfolio from "./screens/portfolio/Portfolio";
 
 function App() {
 	return (
@@ -18,7 +20,9 @@ function App() {
 				color={{ r: 158, g: 217, b: 249, a: 255 }}
 			/>
 			<AboutMe />
+			<Portfolio />
 			<Technologies />
+			<ContactMe />
 		</div>
 	);
 }
